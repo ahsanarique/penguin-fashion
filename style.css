@@ -3,6 +3,10 @@
   height: 31px;
 }
 
+nav a:hover {
+  background-color: #fdd835;
+}
+
 .penguin-bg {
   background-color: #fffde7;
 }
@@ -18,23 +22,61 @@
 }
 
 .penguin-header-font {
-  font-size: 4rem;
+  color: #f9a825;
+  font-size: 5rem;
   font-weight: 1000;
 }
 
 .penguin-button {
   background-color: #9ccc65;
+  border: 0;
+  color: white;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #fdd835;
 }
 
 .penguin-cart-color {
   color: white;
 }
 
-.colored-text {
+.penguin-money-color {
   color: #f9a825;
   font-weight: 700;
 }
 
-button:hover {
-  background-color: #689f38;
+.penguin-text-color {
+  color: #263238;
+  font-weight: 700;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #212121;
+}
+
+/* Scrollbar Customizations */
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9ccc65;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fdd835;
 }

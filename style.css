@@ -1,0 +1,35 @@
+.penguin-logo {
+  width: 230px;
+  height: 31px;
+}
+
+.penguin-bg {
+  background-color: #fffde7;
+}
+
+.penguin-round {
+  border-radius: 15px;
+  border: 0;
+}
+
+.penguin-small-image {
+  height: 100px;
+  width: 100px;
+}
+
+.penguin-header-font {
+  font-size: 4rem;
+  font-weight: 1000;
+}
+
+.penguin-button {
+  background-color: #9ccc65;
+}
+
+.penguin-cart-color {
+  color: white;
+}
+
+button:hover {
+  background-color: #689f38;
+}
